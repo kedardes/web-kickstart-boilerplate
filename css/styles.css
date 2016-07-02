@@ -1,34 +1,15 @@
-/* ---------------------------------------------------------
-   HTML5 Bones
-   This stylesheet contains print styling and a section for 
-   you to simply add your own. This is a basic template 
-   after all.
-   ---------------------------------------------------------*/
-    body {
-   
-    }
-    /* Default link styling */
-    a:link { color:#0271fb; }
-    a:visited { color:#bd02fb; }
-    a:hover, a:focus { color:#000; }
-    a:active { color:#fb0e02; }
-    
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }
-
-  html {
+html {
   font-size: 62.5%; }
 
-  body {
+body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Poppins', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
+
+p {
+  margin-top: 0; }
+
 
